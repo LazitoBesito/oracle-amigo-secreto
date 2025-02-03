@@ -21,15 +21,20 @@
         </header>
 
         <section class="input-section">
+            <!--parte de arriba de donde se introducen los nombres-->
             <h2 class="section-title">Digite el nombre de sus amigos</h2>
+            <!--Todo el cuadrito de introduccion-->
             <div class="input-wrapper">
+                <!--ingresar nombres-->
                 <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
+                <!--boton para enviarlo-->
                 <button class="button-add" onclick="agregarAmigo()">Añadir</button>
             </div>
-
+            <!--Aqui se me genero la lista-->
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
 
+            <!--boton para sortear amigo secreto-->
             <div class="button-container">
                 <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
                     <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
