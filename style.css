@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #fd4b74;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #fe2b7f;
+    --color-button-hover: #f78fb8;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -136,7 +136,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #df0572;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -159,4 +159,8 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.mikko{
+    width: 40%;
 }
